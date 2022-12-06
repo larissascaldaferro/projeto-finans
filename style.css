@@ -34,7 +34,7 @@ ul,li{
     border: 2px solid white;
     border-radius: 8px;
 }
-/*main*/
+/*conteiner1*/
 .conteiner{
     color: white;
     background-color: gold;
@@ -86,7 +86,7 @@ article>div{
     background: url(imagens/saiba.png) no-repeat;
     background-size: contain;
     height: 300px;
-    width: 400px;
+    width: 300px;
     
 }
 
