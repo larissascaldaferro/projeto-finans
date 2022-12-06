@@ -6,6 +6,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+article{
+    padding-left: 40px;
+}
 header{
     padding-top: 20px;
     padding-bottom: 10px;
@@ -126,7 +130,7 @@ border-radius: 8px;
 }
 
 .img5{
-    background: url(imagens/economize.png) no-repeat;
+    background: url(imagens/suporte.png) no-repeat;
     background-size: contain;
     height: 200px;
     width: 300px;
