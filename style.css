@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color:gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>ul,li,a{
+    display: inline-block;
+    padding: 6px;
+    color: grey;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+  
+}
+
+#entrar{
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+/*main*/
+.conteiner{
+    color: white;
+    background-color: gold;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-around;
+
+}
+
+article>h2{
+    padding-top: 40px;
+    font-size: 3em;
+    padding-bottom: 20px;
+    width: 300px;
+}
+article>p{
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+form{
+    padding-bottom: 30px;
+}
+input{
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+#submit{
+    background-color: turquoise ;
+}
+
+article>div{
+    background: url(imagens/capa-mulher.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+}
+/*conteiner2*/
+.conteiner2{
+    padding-top:40px ;
+}
+#dois{
+    font-size: 2em;
+    width: auto;
+}
+
+.img1{
+    margin-top: 40px;
+    background: url(imagens/saiba.png) no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 400px;
+    
+}
+
+.vejamais{
+color: white;
+padding: 10px;
+background-color:turquoise ;
+border-radius: 8px;
+}
+
+/*conteiner3*/
+.img2{
+    background: url(imagens/juros.png) no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 500px;
+    
+}
+
+/*conteiner4*/
+.conteiner4>article{
+    margin-top: 25px;
+    
+}
+
+.conteiner4>article>p{
+    max-width: 300px;
+}
+.img3{
+    background: url(imagens/facil.png) no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 300px;
+}
+
+.img4{
+    background: url(imagens/economize.png) no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 300px;
+}
+
+.img5{
+    background: url(imagens/economize.png) no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: gold;
+}
+@media screen and (min-width:500px) and (max-width:700px){
+    .conteiner>nav>ul,li{
+        display: none;
+    }
+    article{
+       padding-left: 40px;
+    }
+    .div1{display: none;}
+    
+
+}
+
+@media screen and (min-width:800px)
+{
+    .conteiner2{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .img1{
+          width: 500px;
+      }
+
+    .conteiner3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+ 
+}
+
+@media screen and (min-width:900px){
+    .conteiner4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
